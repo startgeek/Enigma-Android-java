@@ -1,0 +1,119 @@
+<resources>
+
+    <string name="app_name">enigma</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">settings</string>
+    <string name="exampleOfNumber">9123456789</string>
+    <string name="addATrip">add trip</string>
+    <string name="password">password</string>
+    <string name="welcome">welcome to enigma</string>
+    <string name="privacyWanrning">by using this app you are accepting all of the term and conditions</string>
+    <string name="address">address</string>
+    <string name="forSignInFillForm">for sign in please fill the form</string>
+    <string name="youAgreeWithConditionAndTerms">by using this app you are accepting all of the term and conditions</string>
+    <string name="enter">enter</string>
+    <string name="havntAAcountSignUp">Dont have a account? signUp now</string>
+    <string name="signUp">Signup</string>
+    <string name="driver">Driver</string>
+    <string name="passenger">Passenger</string>
+    <string name="UcanSignUpAsBoth">You can assign as both</string>
+    <string name="Name">* name and family name</string>
+    <string name="melliID">*Id number</string>
+    <string name="number">*Mobile</string>
+    <string name="plateNumber">plateNumber</string>
+    <string name="email">Email</string>
+    <string name="DoUHaveVehcile">Do you have a vehcile in this trip? if you dosnt have any perefrence you can choose both</string>
+    <string name="accuracy">accuracy of search</string>
+    <string name="accurcyDiscription">if you add to accurecy it results to lower results</string>
+    <string name="moreAccurcy">more accuretate</string>
+    <string name="lessAccurcy">less accurate</string>
+    <string name="resultsUntilTrip">continue Search until trip time</string>
+    <string name="resultsUntilTripDescription">if this option is set to on you will update until trip time</string>
+    <string name="register">Register</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="settings">settings</string>
+    <string name="tripDescription">you can see your registered trip and add trips</string>
+    <string name="myTrips">my trips</string>
+    <string name="myAccount">Account</string>
+    <string name="myAccountDescription">edit your profile or become a well known user</string>
+    <string name="forDriver">for more information on well known users please refer to enigma web site</string>
+    <string name="update">update</string>
+    <string name="becomeWellKnown">become a well known User</string>
+    <string name="wellKnownDescription">to become a well known user you should take multiple photos and send them to us for more information please refer to enigma website</string>
+    <string name="justForPassenger">just for passenger</string>
+    <string name="passengerItem1">ID front and back </string>
+    <string name="passengerItem2">your passport first page</string>
+    <string name="passengerItem3">a personal photo</string>
+    <string name="driverItemsPlus">item for passenger</string>
+    <string name="driverItems">driver and passenger</string>
+    <string name="driverItem4">licence of car</string>
+    <string name="driverItem5">a photo of person beside car plate number should be on the photo</string>
+    <string name="driverItem6">drivers licence </string>
+    <string name="driverItem7">insurance of car</string>
+    <string name="driverItem8">car test approval</string>
+    <string name="descriptionOfItems">in total a passenger should send us 4 photos and a driver and/or both should send ten photos</string>
+    <string name="guide">advanced guid</string>
+    <string name="advanced">advanced</string>
+    <string name="news">news</string>
+    <string name="contactUs">contact us</string>
+    <string name="yourName">your name</string>
+    <string name="exit">exit</string>
+    <string name="noNewMesseges">no new massege</string>
+    <string name="submitYourMessage">please enter your message in box below we are going to cantact you as soon as possible</string>
+    <string name="hintOfContactUs">Example: my infos have mistake in this part</string>
+    <string name="choose_your_source_and_touch_me">please choose your source then touch button</string>
+    <string name="choose_your_destination_and_touch_me">please choose your destination then touch button</string>
+    <string name="source_text_guide">by changing the map choose your source</string>
+    <string name="conform_src">submit source</string>
+    <string name="conform_dst">submit destination</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="searchUntiTrip">continue search until trip time</string>
+    <string name="sameGenderAsMe">same gender only</string>
+    <string name="onlyWellKnownDrivers">well known driver only</string>
+    <string name="zoomTrip">search accurecy </string>
+    <string name="zoomDescription">if you pick higher accuracy you will see less results for trips between cities we recommend minimum accuracy</string>
+    <string name="lessZoom">min acccuracy</string>
+    <string name="moreZoom">max accuracy</string>
+    <string name="registerTrip">register trip</string>
+    <string name="srcDst">change source and destination</string>
+    <string name="timeData">time and date</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="languge">Languge</string>
+    <string name="calender_type">Calender type</string>
+    <string name="time_format">Time format</string>
+
+    <string name="languge_prompt">Choose a languge</string>
+    <string-array name="languge_arrays">
+        <item>English</item>
+        <item>Farsi</item>
+        <item>Arabic</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>dutch</item>
+        <item>chines</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="calender_prompt">Choose a calender type</string>
+    <string-array name="calender_array">
+        <item>georgian</item>
+        <item>shamsi</item>
+        <item>islamic</item>
+        <item>herbew</item>
+        <item>chines</item>
+
+    </string-array>
+    <string name="time_prompt">Choose a time format</string>
+    <string name="notificationMatchFound">notify me when new match found</string>
+    <string name="notificationNearTripTime">notify me when my trip is close</string>
+    <string name="timeDateBTN"><![CDATA[Please set date & time for your trip]]></string>
+    <string-array name="time_array">
+        <item>24 H</item>
+        <item>12 H</item>
+
+    </string-array>
+</resources>

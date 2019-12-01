@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.w1ch.test3ofdrawble.settings"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="@string/languge" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView16"
+        android:prompt="@string/languge_prompt"
+        android:entries="@array/languge_arrays"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/line1"
+        android:layout_height="1dp"
+        android:layout_below="@+id/spinner2"
+        android:layout_margin="25dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calender_type"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/line1" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView17"
+        android:prompt="@string/calender_prompt"
+        android:entries="@array/calender_array"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/line2"
+        android:layout_height="1dp"
+        android:layout_below="@+id/spinner3"
+        android:layout_margin="25dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/time_format"
+        android:layout_below="@+id/line2"/>
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView18"
+        android:entries="@array/time_array"
+        android:prompt="@string/time_prompt"
+        />
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="25dp"
+        android:layout_below="@+id/spinner4"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:text="@string/notificationMatchFound"
+        android:padding="15dp"
+        android:layout_alignLeft="@id/spinner4"
+        android:layout_alignStart="@id/spinner4" />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:padding="15dp"
+        android:layout_alignRight="@+id/spinner4"
+        android:layout_alignEnd="@+id/spinner4"
+        android:id="@+id/switch4"/>
+    <View
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="25dp"
+        android:layout_below="@+id/switch4"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:text="@string/notificationNearTripTime"
+        android:padding="15dp"
+        android:layout_alignLeft="@id/spinner4"
+        android:layout_alignStart="@id/spinner4" />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:padding="15dp"
+        android:layout_alignRight="@+id/spinner4"
+        android:layout_alignEnd="@+id/spinner4"
+        android:id="@+id/switch5"/>
+
+
+
+
+</RelativeLayout>
